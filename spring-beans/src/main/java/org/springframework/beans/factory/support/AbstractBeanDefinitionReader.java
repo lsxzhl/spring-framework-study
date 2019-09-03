@@ -45,6 +45,9 @@ import org.springframework.util.Assert;
  * @author Chris Beams
  * @since 11.12.2003
  * @see BeanDefinitionReaderUtils
+ *
+ * 2019-09-03 zhanghailong
+ * function  实现这些类的功能 BeanDefinitionReader\ EnvironmentCapable
  */
 public abstract class AbstractBeanDefinitionReader implements BeanDefinitionReader, EnvironmentCapable {
 

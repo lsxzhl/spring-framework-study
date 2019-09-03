@@ -37,6 +37,10 @@ package org.springframework.core.env;
  * @see Environment
  * @see ConfigurableEnvironment
  * @see org.springframework.context.ConfigurableApplicationContext#getEnvironment()
+ *
+ * 2019-09-03  zhanghailong
+ * function 定义获取Environment方法
+ *
  */
 public interface EnvironmentCapable {
 

@@ -32,11 +32,14 @@ import org.springframework.util.StringValueResolver;
 /**
  * Simple implementation of the {@link AliasRegistry} interface.
  * Serves as base class for
- * {@link org.springframework.beans.factory.support.BeanDefinitionRegistry}
+ * @link org.springframework.beans.factory.support.BeanDefinitionRegistry
  * implementations.
  *
  * @author Juergen Hoeller
  * @since 2.5.2
+ *
+ * 2019-09-02  张海龙
+ * function 主要使用map作为alias的缓存，并对接口AliasRegistry进行实现
  */
 public class SimpleAliasRegistry implements AliasRegistry {
 
